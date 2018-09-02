@@ -1,0 +1,104 @@
+ 
+.search-ac{
+  padding:10px
+}
+.filerDd{
+  padding: 10px;
+    font-size: 14px;
+    width: 200px;
+    line-height: 1.5;
+    background: #d7d7d7;
+    margin-bottom: 20px;
+    border-radius:5px;  
+    width: 250px;
+}
+.mainContent{
+  padding: 2%;
+  border-top: 1px solid #0f0f0f;
+}
+.leftContent{
+  width: 300px;
+  float: left;
+  border-right: 1px solid #999999;
+}
+.rightContent{
+  display: flex;
+}
+.movieHolder{
+  padding: 2%;
+}
+.movieThumbnail{
+  border: 1px solid #999999;
+  border-radius: 5px;
+  background: #dfdfdf;
+  color: #333333;
+  font-size: 14px;
+  width: 275px;
+  float: left;
+  padding: 30px;
+  margin: 2%;
+  height: 650px;
+}
+.thumbnail-img{
+  margin: 0 auto;
+    width: 50%;
+    display: table;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+}
+.thumbnailTitle{
+  font-weight: bold;
+  color: #525276;
+}
+@media only screen and (max-width: 650px)  {
+ .leftContent{
+   float: none;
+   width:300px;
+   border-bottom: 1px solid #999999;
+   border-left: 1px solid #999999;
+   padding-left: 1%;
+ }
+ .rightContent{
+   display: block;
+   float: none;
+ }
+}
+@media only screen and (max-width: 650px)  {
+ .leftContent{
+   float: none;
+   width:300px;
+   border-bottom: 1px solid #999999;
+   border-left: 1px solid #999999;
+   padding-left: 1%;
+ }
+ .rightContent{
+   display: block;
+   float: none;
+ }
+}
+ @media only screen and (max-width: 590px)  {
+  .leftContent{
+    float: none;
+    width:100%;
+    border-bottom: 1px solid #999999;
+    border-left: 1px solid #999999;
+    padding-left: 4%;
+  }
+  .rightContent{
+    display: block ;
+    float: none;
+  }
+}
+@media only screen and (max-width: 550px)  {
+  .leftContent{
+    float: none;
+    width:100%;
+    border-bottom: 1px solid #999999;
+    border-left: 1px solid #999999;
+    padding-left: 1%;
+  }
+  .rightContent{
+    display: block;
+    float: none;
+  }
+}

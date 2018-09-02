@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="theme-color" content="#000000">
+  <title>EDM Creator</title>
+  <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/rikmms/progress-bar-4-axios/0a3acf92/dist/nprogress.css"
+  />
+  <link rel="stylesheet" href="https://unpkg.com/react-tabs@2/style/react-tabs.css">
+</head>
+
+<body>
+  <style>
+    .clearfix ::before {
+      content: "";
+      display: table;
+    }
+
+    .clearfix::after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    body {
+      padding: 0;
+      margin: 0;
+      background: #efefef;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .header {
+      background: #f4d175;
+      color: #fff;
+      padding: 2%;
+      text-align: left;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+      text-shadow: 0px 0px 7px rgba(0, 0, 0, 0.75);
+      font-size: 35px;
+    }
+
+    .leftHeader {
+      float: left;
+    }
+
+    .carousel .thumbs-wrapper {
+      margin: 20px auto;
+      overflow: hidden;
+      display: table;
+    }
+  </style>
+  <style type="text/css">
+    @media only screen and (max-width: 1239px) and (min-width: 1000px) {
+      .ibm-smart-box .ibm-col-6-2 {
+        width: 480px !important;
+      }
+    }
+
+    @media only screen and (max-width: 759px) and (min-width: 580px) {
+      .ibm-col-4-2,
+      .ibm-col-6-3 {
+        width: 450px;
+      }
+    }
+  </style>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+  </head>
+
+  <body>
+    <header class="header clearfix">
+      <div class="leftHeader">
+        ThoughtWorks App
+      </div>
+    </header>
+    <div class="slider"></div>
+    <div id="root"></div>
+    <script src="bundle.js"></script>
+  </body>
+
+</html>
